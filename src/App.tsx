@@ -1,13 +1,15 @@
-import './App.css'
-import Header from './components/Header'
+// App.tsx
+import { ThemeProvider } from '@mui/material/styles';
+
+import Navbar from './components/Navbar';
+import theme from './theme';
 
 function App() {
-
   return (
-    <>
-      <Header />
-    </>
-  )
+    <ThemeProvider theme={theme}>
+      <Navbar />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;

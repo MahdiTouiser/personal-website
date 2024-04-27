@@ -1,31 +1,64 @@
 {
-  "hash": "55f926a1",
+  "hash": "55369585",
   "configHash": "98a3c7d3",
-  "lockfileHash": "dc6e55ed",
-  "browserHash": "eab7662e",
+  "lockfileHash": "d943b40d",
+  "browserHash": "90744d08",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "f448ecce",
+      "fileHash": "4ac707ce",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "b00a637c",
+      "fileHash": "1f8d07a0",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "b58090c8",
+      "fileHash": "f17728a8",
       "needsInterop": true
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "3b64c474",
+      "needsInterop": false
+    },
+    "@mui/material/AppBar": {
+      "src": "../../node_modules/@mui/material/AppBar/index.js",
+      "file": "@mui_material_AppBar.js",
+      "fileHash": "2f820f94",
+      "needsInterop": false
+    },
+    "@mui/material/Toolbar": {
+      "src": "../../node_modules/@mui/material/Toolbar/index.js",
+      "file": "@mui_material_Toolbar.js",
+      "fileHash": "0c435b0c",
+      "needsInterop": false
+    },
+    "@mui/material/Typography": {
+      "src": "../../node_modules/@mui/material/Typography/index.js",
+      "file": "@mui_material_Typography.js",
+      "fileHash": "71f013e3",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-C7MUITE7": {
-      "file": "chunk-C7MUITE7.js"
+    "chunk-K52PUECE": {
+      "file": "chunk-K52PUECE.js"
+    },
+    "chunk-DPP2P5BP": {
+      "file": "chunk-DPP2P5BP.js"
+    },
+    "chunk-DEESVGKI": {
+      "file": "chunk-DEESVGKI.js"
+    },
+    "chunk-O2F6JIHC": {
+      "file": "chunk-O2F6JIHC.js"
     }
   }
 }
