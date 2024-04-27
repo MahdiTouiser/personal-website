@@ -1,31 +1,73 @@
 {
-  "hash": "55f926a1",
+  "hash": "363eb370",
   "configHash": "98a3c7d3",
-  "lockfileHash": "dc6e55ed",
-  "browserHash": "eab7662e",
+  "lockfileHash": "587a08c9",
+  "browserHash": "674f8782",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "f448ecce",
+      "fileHash": "f78921e5",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "b00a637c",
+      "fileHash": "452a4948",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "b58090c8",
+      "fileHash": "3dc3ef7d",
       "needsInterop": true
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "e79a55c2",
+      "needsInterop": false
+    },
+    "@mui/material/AppBar": {
+      "src": "../../node_modules/@mui/material/AppBar/index.js",
+      "file": "@mui_material_AppBar.js",
+      "fileHash": "949f92ab",
+      "needsInterop": false
+    },
+    "@mui/material/Toolbar": {
+      "src": "../../node_modules/@mui/material/Toolbar/index.js",
+      "file": "@mui_material_Toolbar.js",
+      "fileHash": "4cbb7174",
+      "needsInterop": false
+    },
+    "@mui/material/Typography": {
+      "src": "../../node_modules/@mui/material/Typography/index.js",
+      "file": "@mui_material_Typography.js",
+      "fileHash": "8a4c2bbd",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "16d44bed",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-C7MUITE7": {
-      "file": "chunk-C7MUITE7.js"
+    "chunk-U6GQ4ZSJ": {
+      "file": "chunk-U6GQ4ZSJ.js"
+    },
+    "chunk-JTXTQPDO": {
+      "file": "chunk-JTXTQPDO.js"
+    },
+    "chunk-IG5QFOVM": {
+      "file": "chunk-IG5QFOVM.js"
+    },
+    "chunk-KAKXEIZS": {
+      "file": "chunk-KAKXEIZS.js"
+    },
+    "chunk-O2F6JIHC": {
+      "file": "chunk-O2F6JIHC.js"
     }
   }
 }
