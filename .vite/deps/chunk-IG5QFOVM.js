@@ -44,23 +44,11 @@ import {
   useThemeProps,
   useThemeWithoutDefault_default,
   useTheme_default
-} from "./chunk-DEESVGKI.js";
+} from "./chunk-KAKXEIZS.js";
 import {
   __toESM,
   require_react
 } from "./chunk-O2F6JIHC.js";
-
-// node_modules/@mui/material/styles/getOverlayAlpha.js
-var getOverlayAlpha = (elevation) => {
-  let alphaValue;
-  if (elevation < 1) {
-    alphaValue = 5.11916 * elevation ** 2;
-  } else {
-    alphaValue = 4.5 * Math.log(elevation + 1) + 2;
-  }
-  return (alphaValue / 100).toFixed(2);
-};
-var getOverlayAlpha_default = getOverlayAlpha;
 
 // node_modules/@mui/system/esm/colorManipulator.js
 init_formatMuiErrorMessage();
@@ -2925,10 +2913,19 @@ function useTheme2() {
   return theme[identifier_default] || theme;
 }
 
+// node_modules/@mui/material/styles/getOverlayAlpha.js
+var getOverlayAlpha = (elevation) => {
+  let alphaValue;
+  if (elevation < 1) {
+    alphaValue = 5.11916 * elevation ** 2;
+  } else {
+    alphaValue = 4.5 * Math.log(elevation + 1) + 2;
+  }
+  return (alphaValue / 100).toFixed(2);
+};
+var getOverlayAlpha_default = getOverlayAlpha;
+
 export {
-  integerPropType_default,
-  chainPropTypes,
-  getOverlayAlpha_default,
   hexToRgb,
   decomposeColor,
   recomposeColor,
@@ -2940,11 +2937,14 @@ export {
   darken,
   lighten,
   emphasize,
+  chainPropTypes,
+  integerPropType_default,
   ThemeProvider_default2 as ThemeProvider_default,
   createCssVarsProvider,
   createGetCssVar,
   prepareCssVars_default,
-  useTheme2 as useTheme
+  useTheme2 as useTheme,
+  getOverlayAlpha_default
 };
 /*! Bundled license information:
 
@@ -2966,4 +2966,4 @@ export {
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=chunk-DPP2P5BP.js.map
+//# sourceMappingURL=chunk-IG5QFOVM.js.map

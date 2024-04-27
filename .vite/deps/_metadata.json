@@ -1,61 +1,70 @@
 {
-  "hash": "55369585",
+  "hash": "363eb370",
   "configHash": "98a3c7d3",
-  "lockfileHash": "d943b40d",
-  "browserHash": "90744d08",
+  "lockfileHash": "587a08c9",
+  "browserHash": "674f8782",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "4ac707ce",
+      "fileHash": "f78921e5",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "1f8d07a0",
+      "fileHash": "452a4948",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "f17728a8",
+      "fileHash": "3dc3ef7d",
       "needsInterop": true
     },
     "@mui/material/styles": {
       "src": "../../node_modules/@mui/material/styles/index.js",
       "file": "@mui_material_styles.js",
-      "fileHash": "3b64c474",
+      "fileHash": "e79a55c2",
       "needsInterop": false
     },
     "@mui/material/AppBar": {
       "src": "../../node_modules/@mui/material/AppBar/index.js",
       "file": "@mui_material_AppBar.js",
-      "fileHash": "2f820f94",
+      "fileHash": "949f92ab",
       "needsInterop": false
     },
     "@mui/material/Toolbar": {
       "src": "../../node_modules/@mui/material/Toolbar/index.js",
       "file": "@mui_material_Toolbar.js",
-      "fileHash": "0c435b0c",
+      "fileHash": "4cbb7174",
       "needsInterop": false
     },
     "@mui/material/Typography": {
       "src": "../../node_modules/@mui/material/Typography/index.js",
       "file": "@mui_material_Typography.js",
-      "fileHash": "71f013e3",
+      "fileHash": "8a4c2bbd",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "16d44bed",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-K52PUECE": {
-      "file": "chunk-K52PUECE.js"
+    "chunk-U6GQ4ZSJ": {
+      "file": "chunk-U6GQ4ZSJ.js"
     },
-    "chunk-DPP2P5BP": {
-      "file": "chunk-DPP2P5BP.js"
+    "chunk-JTXTQPDO": {
+      "file": "chunk-JTXTQPDO.js"
     },
-    "chunk-DEESVGKI": {
-      "file": "chunk-DEESVGKI.js"
+    "chunk-IG5QFOVM": {
+      "file": "chunk-IG5QFOVM.js"
+    },
+    "chunk-KAKXEIZS": {
+      "file": "chunk-KAKXEIZS.js"
     },
     "chunk-O2F6JIHC": {
       "file": "chunk-O2F6JIHC.js"
