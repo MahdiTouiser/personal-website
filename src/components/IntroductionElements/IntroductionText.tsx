@@ -4,7 +4,7 @@ import { Box, Link, Typography } from "@mui/material";
 
 const IntroductionText = () => {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start' }}>
             <Typography sx={{ fontWeight: 'bold', fontSize: '80px' }}>Front-End React</Typography>
             <Box sx={{ display: 'flex' }}>
                 <Typography sx={{ fontWeight: 'bold', fontSize: '80px' }}>Developer</Typography>
@@ -12,16 +12,16 @@ const IntroductionText = () => {
                     <img src="./public/waving.png" alt="Waving hand" style={{ width: '84px', height: '84px' }} />
                 </span>
             </Box>
-            <Box>
+            <Box sx={{ marginLeft: '5px' }}>
                 <Typography>
                     Hi, I'm Mahdi Touiserkani. A passionate Front-end React Developer based in Tehran, Iran. 📍
                 </Typography>
             </Box>
-            <Box>
-                <Link href="https://www.linkedin.com/in/mahdi-touiser/" target="_blank" rel="noopener noreferrer">
+            <Box sx={{ marginTop: '15px' }}>
+                <Link href="https://www.linkedin.com/in/mahdi-touiser/" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', transition: 'color 0.3s', marginRight: '10px', '&:hover': { textDecoration: 'none', color: 'white' } }}>
                     <LinkedInIcon fontSize="large" />
                 </Link>
-                <Link href="https://github.com/MahdiTouiser" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/MahdiTouiser" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', transition: 'color 0.3s', '&:hover': { textDecoration: 'none', color: 'white' } }}>
                     <GitHubIcon fontSize="large" />
                 </Link>
             </Box>
