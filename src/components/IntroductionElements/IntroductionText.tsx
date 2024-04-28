@@ -9,7 +9,7 @@ const IntroductionText = () => {
             <Box sx={{ display: 'flex' }}>
                 <Typography sx={{ fontWeight: 'bold', fontSize: '80px' }}>Developer</Typography>
                 <span style={{ marginLeft: '20px', marginTop: '15px' }}>
-                    <img src="./public/waving.png" alt="Waving hand" style={{ width: '84px', height: '84px' }} />
+                    <img src={'/public/waving.png'} alt="Waving hand" style={{ width: '84px', height: '84px' }} />
                 </span>
             </Box>
             <Box sx={{ marginLeft: '5px' }}>
