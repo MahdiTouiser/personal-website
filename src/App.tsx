@@ -1,17 +1,22 @@
+import { Box } from '@mui/material';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import About from './components/About';
 import Introduction from './components/Introduction';
 import Navbar from './components/Navbar';
 
-
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className='app-container'>
+      <Box className='app-container'>
         <Navbar />
-        <Introduction />
-      </div>
-
+        <section id="introduction" className="section">
+          <Introduction />
+        </section>
+        <section id="about" className="section">
+          <About />
+        </section>
+      </Box>
     </Router>
   );
 }

@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => (
-    <AppBar position="fixed" sx={{ backgroundColor: '#526D82' }}>
+    <AppBar position="fixed" sx={{ backgroundColor: '#526D82', height: "auto" }}>
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
             <Typography variant="h6" component={RouterLink} to="/" sx={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold', transition: 'color 0.3s' }}>
                 MahdiTouiser.Dev
