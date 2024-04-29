@@ -12,9 +12,12 @@ const IntroductionText = () => {
                     <img src={'/src/assets/waving.png'} alt="Waving hand" style={{ width: '84px', height: '84px' }} />
                 </span>
             </Box>
-            <Box sx={{ marginLeft: '5px' }}>
-                <Typography>
-                    Hi, I'm Mahdi Touiserkani. A passionate Front-end React Developer based in Tehran, Iran. 📍
+            <Box sx={{ marginLeft: '5px', textAlign: 'left' }}>
+                <Typography sx={{ fontSize: '20px' }}>
+                    Hi, I'm Mahdi Touiserkani.
+                </Typography>
+                <Typography sx={{ fontSize: '20px' }}>
+                    A passionate Front-end React Developer based in Tehran, Iran. 📍
                 </Typography>
             </Box>
             <Box sx={{ marginTop: '15px' }}>
