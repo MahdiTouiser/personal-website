@@ -7,16 +7,16 @@ const IntroductionStack = () => {
 
             <Box sx={{ display: 'flex' }}>
                 <Box>
-                    <img src="././htmlcss.svg" alt="HTML CSS" />
+                    <img src="././src/assets/htmlcss.svg" alt="HTML CSS" />
                 </Box>
                 <Box sx={{ marginLeft: '20px' }}>
-                    <img src="././jsts.svg" alt="JavaScript" />
+                    <img src="././src/assets/jsts.svg" alt="JavaScript" />
                 </Box>
                 <Box sx={{ marginLeft: '20px' }} >
-                    <img src="././reactnext.svg" alt="React Next.js" />
+                    <img src="././src/assets/reactnext.svg" alt="React Next.js" />
                 </Box>
                 <Box sx={{ marginLeft: '20px' }}>
-                    <img src="././tailwindmui.svg" alt="Tailwind CSS MUI" />
+                    <img src="././src/assets/tailwindmui.svg" alt="Tailwind CSS MUI" />
                 </Box>
             </Box>
         </Box>

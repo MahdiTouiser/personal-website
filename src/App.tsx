@@ -10,12 +10,7 @@ const App: React.FC = () => {
   const introductionRef = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+
 
   return (
     <Router>
@@ -26,12 +21,12 @@ const App: React.FC = () => {
             aboutRef,
           }}
         />
-        <section id="introduction" ref={introductionRef}>
+        <Box id="introduction" ref={introductionRef}>
           <Introduction />
-        </section>
-        <section id="about" ref={aboutRef}>
+        </Box>
+        <Box id="about" ref={aboutRef}>
           <About />
-        </section>
+        </Box>
       </Box>
     </Router>
   );

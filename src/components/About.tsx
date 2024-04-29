@@ -4,7 +4,7 @@ const About = () => {
     return (
         <Box sx={{ display: 'flex', alignItems: 'center', marginTop: '20%' }}>
             <Box sx={{ width: '400px', height: '300px' }}>
-                <Avatar src={"/public/about-img.jpg"} alt="About Image" sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10%' }} />
+                <Avatar src={"/src/assets/about-img.jpg"} alt="About Image" sx={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10%' }} />
             </Box>
             <Box>
                 <Typography>
