@@ -6,6 +6,9 @@ interface NavbarProps {
     scrollToRef: {
         introductionRef: React.RefObject<HTMLDivElement>;
         aboutRef: React.RefObject<HTMLDivElement>;
+        projectsRef: React.RefObject<HTMLDivElement>;
+        contactRef: React.RefObject<HTMLDivElement>;
+
     };
 }
 
@@ -21,6 +24,12 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToRef }) => (
                 </Typography>
                 <Typography component={RouterLink} to="/#About" onClick={() => scrollToRef.aboutRef.current?.scrollIntoView()} variant="button" sx={{ textDecoration: 'none', fontWeight: 'bold', color: 'inherit', marginRight: 4, transition: 'color 0.3s' }}>
                     About
+                </Typography>
+                <Typography component={RouterLink} to="/#Projects" onClick={() => scrollToRef.projectsRef.current?.scrollIntoView()} variant="button" sx={{ textDecoration: 'none', fontWeight: 'bold', color: 'inherit', marginRight: 4, transition: 'color 0.3s' }}>
+                    Projects
+                </Typography>
+                <Typography component={RouterLink} to="/#Contact" onClick={() => scrollToRef.contactRef.current?.scrollIntoView()} variant="button" sx={{ textDecoration: 'none', fontWeight: 'bold', color: 'inherit', marginRight: 4, transition: 'color 0.3s' }}>
+                    Contact
                 </Typography>
             </div>
         </Toolbar>
