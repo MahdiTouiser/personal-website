@@ -10,7 +10,7 @@ const Introduction = () => {
                 <IntroductionText />
                 <IntroductionImage />
             </Box>
-            <Box sx={{ marginTop: '20%' }}
+            <Box sx={{ marginTop: '15%' }}
             >
                 <IntroductionStack />
             </Box>

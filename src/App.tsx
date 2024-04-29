@@ -26,12 +26,12 @@ const App: React.FC = () => {
             aboutRef,
           }}
         />
-        <section id="introduction" ref={introductionRef}>
+        <Box id="introduction" ref={introductionRef}>
           <Introduction />
-        </section>
-        <section id="about" ref={aboutRef}>
+        </Box>
+        <Box id="about" ref={aboutRef}>
           <About />
-        </section>
+        </Box>
       </Box>
     </Router>
   );
